@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 711096454812314308}
   - component: {fileID: 711096453725758062}
   - component: {fileID: 114263067568858712}
+  - component: {fileID: 3582465591991102145}
+  - component: {fileID: 711096455300553758}
+  - component: {fileID: 8209356018450877209}
   m_Layer: 0
   m_Name: Food_Pizza_01
   m_TagString: Untagged
@@ -27,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711096454810317828}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 2.89}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
@@ -102,5 +105,46 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e5bd0e7a0adf487db4c98d4f8af05c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3582465591991102145
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711096454810317828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4597009, y: 0.65673155, z: 0.55363166}
+  m_Center: {x: 0, y: 0.26219147, z: -0.00000019868216}
+--- !u!54 &711096455300553758
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711096454810317828}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8209356018450877209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711096454810317828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85171a7cdb97c4eab82535967f3ee805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -2403,6 +2403,8 @@ GameObject:
   - component: {fileID: 4006416049379284343}
   - component: {fileID: 4006416049809544619}
   - component: {fileID: 114444610687822716}
+  - component: {fileID: 5650680692817525305}
+  - component: {fileID: 1496936702539930673}
   m_Layer: 0
   m_Name: Dog_Pug_01
   m_TagString: Untagged
@@ -2503,6 +2505,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e5bd0e7a0adf487db4c98d4f8af05c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &5650680692817525305
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4006416049372018873}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20704904, y: 0.45654508, z: 0.3022953}
+  m_Center: {x: 0.00041263105, y: 0.22956038, z: 0.055290986}
+--- !u!114 &1496936702539930673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4006416049372018873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85171a7cdb97c4eab82535967f3ee805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4006416049372019759
